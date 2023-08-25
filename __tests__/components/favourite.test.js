@@ -4,9 +4,9 @@ import "@testing-library/jest-dom";
 import { FavouriteFortuneCookies } from "@/app/components/favourite";
 
 describe("FavouriteFortuneCookies component", () => {
-  test("renders no cookies message when no saved fortune cookies", () => {
-    const { getByText } = render(<FavouriteFortuneCookies />);
+	test("renders no cookies message when no saved fortune cookies", () => {
+		const { getByText } = render(<FavouriteFortuneCookies />);
 
-    expect(getByText("No cookies!")).toBeInTheDocument();
-  });
+		expect(getByText("No cookies!")).toBeInTheDocument();
+	});
 });
