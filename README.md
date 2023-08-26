@@ -1,7 +1,8 @@
 ## Running Locally
 
 1. install the dependencies
-2. run the server 
+2. run the server - will run on http://localhost:5000/, please chanhe webScoketUrl in constants to http://localhost:5000/
+
 3. run the dev
 
 ## Used resources

@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { Article } from "./article";
 import { Card } from "./card";
 import { FortuneCookie } from "@/types/types";
+import { webScoketUrl } from "../constants/constants";
 
 export const FortuneCookies: React.FC = () => {
   const [isConnected, setIsConnected] = useState(false);
@@ -13,7 +14,7 @@ export const FortuneCookies: React.FC = () => {
 
   const socket = useRef<WebSocket>();
   function connect() {
-    socket.current = new WebSocket("ws://localhost:5000");
+    socket.current = new WebSocket(webScoketUrl);
 
     socket.current.onmessage = (event) => {
       const data = JSON.parse(event.data);

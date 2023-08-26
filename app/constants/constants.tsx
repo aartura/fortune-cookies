@@ -1,0 +1,1 @@
+export const webScoketUrl = "wss://ws-fortune-cookie-81ce15c566b1.herokuapp.com/";
