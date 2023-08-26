@@ -5,6 +5,10 @@
 
 3. run the dev
 
+## Deployed version
+
+https://fortune-cookies-lm42.vercel.app/fortune-cookies
+
 ## Used resources
 
 - http://yerkee.com/api - Fortune Cookie API, Retrieves a random fortune cookie and returns it via JSON.
